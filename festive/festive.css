@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    font-family: monospace;
+}
+
+body {
+    /* background-image: url(https://media4.giphy.com/media/GeimqsH0TLDt4tScGw/giphy.gif); */
+    background-size: cover;
+    background-color: black;
+}
+
+#thing {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    margin-bottom: 2rem;
+    color: red;
+}
+
+.content {
+    opacity: 75%;
+
+    width: 100vh;
+    height: 75vh;
+    background-color: red;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    border-radius: 8rem;
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 5vh;
+}
+
+.item-selectors button {
+    background: none;
+    width: 20rem;
+    border: none;
+    cursor: pointer;
+    font-size: xx-large;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.item-selectors {
+    width: 21rem;
+    float: left;
+    height: 100%;
+}
+
+.item-selectors button:hover {
+    background-color: rgb(165, 3, 3);
+}
+
+.item-selectors span {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: black;
+    font-size: 1px;
+    padding-left: 20rem;
+}
+
+.information {
+    float: right;
+    text-align: center;
+    width: 100%;
+    padding: 5rem;
+}
+
+#maindiv {
+    background-color: black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 3px;
+}
+
+.item-info {
+    position: absolute;
+    display: none;
+    width: 40rem;
+}
+
+.item-info img {
+    max-width: 40rem;
+    max-height: 40rem;
+}
+
+.default {
+    display: block;
+}
+
+.item-info a {
+    padding: 2rem;
+    display: block;
+    font-size: x-large;
+    width: 100%;
+    /* space it out */
+    margin-top: -0.3rem;
+    padding: 1rem;
+    background-color: red;
+    border-radius: 2rem;
+    border-color: darkred;
+    text-decoration: none;
+    border-width: 1px;
+}
+
+.item-info a:hover {
+    background-color: rgb(165, 3, 3);
+}
